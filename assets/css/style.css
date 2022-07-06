@@ -64,6 +64,7 @@ h5 {
 img {
 	max-width: 100%;
 	height: auto;
+	display: block;
 }
 /** utilitys **/
 
@@ -397,6 +398,17 @@ pre {
 		grid-template-columns: repeat(auto-fit, minmax(min(100%, 35rem), 1fr));
 	}
 }
+
+.portfolio___cards,
+.portfolio___cards img {
+	background-color: var(--bcolorHead);
+	border-radius: 1rem;
+	-webkit-border-radius: 1rem;
+	-moz-border-radius: 1rem;
+	-ms-border-radius: 1rem;
+	-o-border-radius: 1rem;
+}
+
 .portfolio__title {
 	text-transform: uppercase;
 }
