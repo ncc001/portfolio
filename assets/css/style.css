@@ -286,6 +286,7 @@ pre {
 	text-transform: capitalize;
 	font-weight: 900;
 	text-align: center;
+	margin-bottom: 5rem;
 }
 .about__par {
 	text-transform: capitalize;
@@ -350,6 +351,10 @@ pre {
 	text-align: center;
 	margin: 11rem 0;
 }
+
+.skills__title {
+	margin-bottom: 5rem;
+}
 .skills__container {
 	display: flex;
 	gap: 2rem;
@@ -403,6 +408,9 @@ pre {
 	.portoflio___container {
 		grid-template-columns: repeat(auto-fit, minmax(min(100%, 35rem), 1fr));
 	}
+}
+.portfolio__title {
+	margin-bottom: 5rem;
 }
 
 .portfolio___cards,
