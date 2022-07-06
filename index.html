@@ -20,7 +20,7 @@
 		<title>Nelson Carrion</title>
 	</head>
 	<body>
-		<header class="hero">
+		<header class="hero" id="home">
 			<div class="wrapper2">
 				<div class="hero__bar wrapper">
 					<div class="hero__logos">
@@ -34,11 +34,12 @@
 					<!-- hero logos fin-->
 
 					<nav class="hero__nav">
-						<a href="" class="nav__items">Home</a>
-						<a href="" class="nav__items">About Me</a>
-						<a href="" class="nav__items">Skills</a>
-						<a href="" class="nav__items">Portfolio</a>
-						<a href="" class="nav__items">Contact</a>
+						<a href="#home" class="nav__items">Home</a>
+						<a href="#about" class="nav__items">About Me</a>
+						<a href="#services" class="nav__items">Services</a>
+						<a href="#skills" class="nav__items">Skills</a>
+						<a href="#portfolio" class="nav__items">Portfolio</a>
+						<a href="#contact" class="nav__items">Contact</a>
 					</nav>
 				</div>
 			</div>
@@ -57,7 +58,11 @@
 					</p>
 
 					<div class="hero__links">
-						<button class="download" type="button">
+						<button
+							onclick="window.location.href = 'index.html'"
+							class="download"
+							type="button"
+						>
 							<i class="bx bxs-download"></i>
 							Download CV
 						</button>
@@ -94,7 +99,7 @@
 		</header>
 
 		<main class="wrapper">
-			<section class="about">
+			<section class="about" id="about">
 				<div class="about__title"><h2 class="no-margin">About me</h2></div>
 				<div class="about__par">
 					<p>
@@ -113,7 +118,7 @@
 			</section>
 			<!--about end-->
 
-			<section class="services">
+			<section class="services" id="services">
 				<h2 class="services__title no-margin">services</h2>
 				<div class="services__container">
 					<div class="services__items">
@@ -163,7 +168,7 @@
 				<!-- service container-->
 			</section>
 			<!--services end-->
-			<section class="skills">
+			<section class="skills" id="skills">
 				<h2 class="skills__title">Skills</h2>
 				<div class="skills__container">
 					<div class="skills__items">
@@ -186,7 +191,7 @@
 				<!--skills__container end-->
 			</section>
 			<!--section skills end-->
-			<section class="portfolio">
+			<section class="portfolio" id="portfolio">
 				<h2 class="portfolio__title">portfolio</h2>
 				<div class="portoflio___container">
 					<div class="portfolio___cards">
