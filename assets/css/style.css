@@ -325,7 +325,7 @@ pre {
 }
 .conteiner {
 	line-height: 1;
-	padding: 0.5rem;
+	/* padding: 0.5rem; */
 }
 .services__items i {
 	font-size: 5rem;
