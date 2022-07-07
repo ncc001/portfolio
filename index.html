@@ -21,7 +21,7 @@
 	</head>
 	<body>
 		<header class="hero" id="home">
-			<div class="wrapper2">
+			<div class="hero__barconteiner" id="navbar">
 				<div class="hero__bar wrapper">
 					<div class="hero__logos">
 						<img class="hero__img" src="assets/img/prolife.png" alt="" />
@@ -32,7 +32,7 @@
 						</h1>
 					</div>
 					<!-- hero logos fin-->
-
+					<button class="bar__toggle"><i class="bx bx-menu"></i></button>
 					<nav class="hero__nav">
 						<a href="#home" class="nav__items">Home</a>
 						<a href="#about" class="nav__items">About Me</a>
@@ -58,14 +58,10 @@
 					</p>
 
 					<div class="hero__links">
-						<button
-							onclick="window.location.href = 'index.html'"
-							class="download"
-							type="button"
-						>
+						<a class="download">
 							<i class="bx bxs-download"></i>
 							Download CV
-						</button>
+						</a>
 
 						<a href="https://github.com/ncc001" target="_blank"
 							><i class="bx bxl-github logos__icons"></i
@@ -169,7 +165,7 @@
 			</section>
 			<!--services end-->
 			<section class="skills" id="skills">
-				<h2 class="skills__title">Skills</h2>
+				<h2 class="skills__title no-margin">Skills</h2>
 				<div class="skills__container">
 					<div class="skills__items">
 						<i class="bx bxl-html5"></i> <span> HTML</span>
@@ -319,5 +315,6 @@
 			</section>
 			<!--section contact end-->
 		</main>
+		<script src="assets/js/main.js"></script>
 	</body>
 </html>
