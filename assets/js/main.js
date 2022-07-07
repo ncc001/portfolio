@@ -3,12 +3,12 @@ const togglem = document.querySelector('.bar__toggle');
 const heronav = document.querySelector('.hero__nav');
 
 togglem.addEventListener('click', () => {
-	heronav.classList.toggle('activado');
+	heronav.classList.toggle('active');
 });
 
 heronav.addEventListener('click', function (e) {
 	if (e.target.matches('.hero__nav a')) {
-		heronav.classList.remove('activado');
+		heronav.classList.remove('active');
 	}
 });
 /* Formulario */
