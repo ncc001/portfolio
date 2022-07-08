@@ -31,19 +31,19 @@ form.addEventListener('submit', function (e) {
 		email: input.email.value,
 		message: input.message.value,
 	};
-	
-	window.fetch(URL_BASE, {
+
+	window
+		.fetch(URL_BASE, {
 			method: 'POST',
 			headers: {
-					'Content-Type': 'application/json',
-					Accept: 'application/json',
-				},
-				body: JSON.stringify(formData),
-			});
-			.then((response) => response.json())
-			.then((data) => console.log(data))
-			.catch((error) => console.log(error));
-			
-			e.currentTarget.reset();
-		});
-		
+				'Content-Type': 'application/json',
+				Accept: 'application/json',
+			},
+			body: JSON.stringify(formData),
+		})
+		.then((response) => response.json())
+		.then((data) => console.log(data))
+		.catch((error) => console.log(error));
+
+	e.currentTarget.reset();
+});
