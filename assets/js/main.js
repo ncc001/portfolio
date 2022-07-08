@@ -32,18 +32,15 @@ form.addEventListener('submit', function (e) {
 		message: input.message.value,
 	};
 
-	window
-		.fetch(URL_BASE, {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-				Accept: 'application/json',
-			},
-			body: JSON.stringify(formData),
-		})
-		.then((response) => response.json())
-		.then((data) => console.log(data))
-		.catch((error) => console.log(error));
+	window.fetch(URL_BASE, {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json',
+			Accept: 'application/json',
+		},
+		body: JSON.stringify(formData),
+	});
+	alert('tu mensaje se ha enviado');
 
 	e.currentTarget.reset();
 });
