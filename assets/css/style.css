@@ -30,10 +30,6 @@ body {
 	min-height: 100%;
 }
 
-section {
-	padding-top: 10rem !important;
-}
-
 /** Globals */
 
 .wrapper {
@@ -245,12 +241,12 @@ img {
 .hero__texts {
 	text-align: start;
 	padding-right: 1rem;
-	margin: 10rem 0;
+	margin: 5rem 0;
 }
 
 @media (min-width: 768px) {
 	.hero__texts {
-		margin: 8rem 0;
+		margin: 10rem 0;
 		text-align: justify;
 	}
 }
@@ -287,8 +283,6 @@ img {
 @media (min-width: 768px) {
 	.hero__links {
 		padding: 1rem 2rem;
-	}
-	.logos__icons {
 	}
 }
 /* btn download */
@@ -377,11 +371,11 @@ pre {
 /* about setcion */
 .about {
 	text-align: justify;
-	padding: 1rem;
+	padding: 0 1rem 0 1rem;
 }
 @media (min-width: 768px) {
 	.about {
-		padding: 1rem 2rem;
+		padding: 0 2rem 1rem 2rem;
 		margin: 0 auto;
 	}
 }
@@ -397,7 +391,7 @@ pre {
 }
 /* services section */
 .services {
-	padding: 1rem;
+	padding: 0 1rem 1rem 1rem;
 	margin: 2rem 0;
 }
 
@@ -448,7 +442,7 @@ pre {
 
 .skills {
 	text-align: center;
-	margin: 6rem 0;
+	margin: 2rem 0;
 }
 
 .skills__title {
@@ -595,4 +589,12 @@ textarea {
 	text-align: center;
 	padding: 0 20px;
 	font-size: 18px;
+}
+.separacion {
+	padding-top: 2rem;
+}
+@media (min-width: 768px) {
+	.separacion {
+		padding-top: 8rem;
+	}
 }
