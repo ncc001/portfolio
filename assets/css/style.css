@@ -3,7 +3,7 @@
 	--fontParraf: 'Open Sans', sans-serif;
 	---bcolor: #121212;
 	--bcolorHead: #1e1e1e;
-	--colorhead: #f9004d;
+	--colorhead: rgb(249 0 77);
 	--colorpar: rgb(156 163 175);
 }
 
@@ -133,13 +133,15 @@ img {
 @media (min-width: 867px) {
 	.hero__img {
 		display: block;
-		width: 3.6rem;
+		width: 4rem;
+		height: 4.2rem;
 		border-radius: 50%;
 		-webkit-border-radius: 50%;
 		-moz-border-radius: 50%;
 		-ms-border-radius: 50%;
 		-o-border-radius: 50%;
 		object-fit: contain;
+		background-color: lightseagreen;
 	}
 }
 
@@ -662,4 +664,9 @@ textarea {
 	.separacion {
 		padding-top: 7rem;
 	}
+}
+
+canvas {
+	display: block;
+	vertical-align: bottom;
 }
