@@ -47,5 +47,3 @@ form.addEventListener('submit', function (e) {
 	alert('tu mensaje se ha enviado');
 	e.currentTarget.reset();
 });
-
-/

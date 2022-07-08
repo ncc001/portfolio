@@ -665,8 +665,3 @@ textarea {
 		padding-top: 7rem;
 	}
 }
-
-canvas {
-	display: block;
-	vertical-align: bottom;
-}
