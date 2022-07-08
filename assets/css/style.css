@@ -117,7 +117,7 @@ img {
 	background-color: var(--bcolorHead);
 }
 .hero__bar {
-	padding: 1rem 1rempadding: 0 1rem;;
+	padding: 1rem 1rem;
 }
 @media (min-width: 768px) {
 	.hero__bar {
