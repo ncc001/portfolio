@@ -23,7 +23,7 @@ heronav.addEventListener('click', function (e) {
 
 form.addEventListener('submit', function (e) {
 	e.preventDefault();
-	const email = 'ncc.drive1@gmail.com';
+	const email = 'ncc.webs@yahoo.com';
 	const URL_BASE = `https://formsubmit.co/${email}`;
 	const input = e.currentTarget.elements;
 	const formData = {
