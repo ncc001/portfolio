@@ -1,13 +1,20 @@
 // toogle
 const togglem = document.querySelector('.bar__toggle');
 const heronav = document.querySelector('.hero__nav');
+const herobar = document.querySelector('.hero__barconteiner');
+
+window.addEventListener('scroll', function () {
+	if (window.scrollY >= 60) {
+		herobar.classList.add('barconteiner-fixed');
+	} else herobar.classList.remove('barconteiner-fixed');
+});
 
 togglem.addEventListener('click', () => {
 	heronav.classList.toggle('active');
 });
 
 heronav.addEventListener('click', function (e) {
-	if (e.target.matches('.hero__nav a')) {
+	if (e.target.matches('.nav__items')) {
 		heronav.classList.remove('active');
 	}
 });

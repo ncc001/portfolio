@@ -40,6 +40,10 @@ section {
 	width: min(90%, 120rem);
 	margin: 0 auto;
 }
+.wrapper2 {
+	width: min(90%, 120rem);
+	margin: 0 auto;
+}
 
 a {
 	text-decoration: none;
@@ -98,16 +102,22 @@ img {
 }
 
 /* bar nav */
+
 .hero__barconteiner {
-	background-color: var(--bcolorHead);
 	position: fixed;
 	top: 0px;
 	left: 0px;
 	width: 100%;
 	z-index: 1;
+
+	align-items: center;
+}
+
+.hero__barconteiner.barconteiner-fixed {
+	background-color: var(--bcolorHead);
 }
 .hero__bar {
-	padding: 1rem 0;
+	padding: 1rem 1rempadding: 0 1rem;;
 }
 @media (min-width: 768px) {
 	.hero__bar {
@@ -150,7 +160,7 @@ img {
 
 .bar__toggle {
 	color: var(--colorhead);
-	background-color: var(--bcolorHead);
+	background-color: transparent;
 	border: none;
 	font-size: 6vw;
 	padding: 0 1rem;
@@ -174,6 +184,11 @@ img {
 }
 
 @media (max-width: 768px) {
+	.wrapper {
+		width: 100%;
+		background-color: var(--bcolorHead);
+	}
+
 	.bar__toggle {
 		display: block;
 		position: absolute;
@@ -189,7 +204,6 @@ img {
 		width: 100%;
 		margin-top: 1rem;
 		display: none;
-		transition: width 2s linear 1s;
 	}
 	.hero__logos {
 		justify-content: inherit;
