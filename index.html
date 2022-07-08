@@ -19,30 +19,7 @@
 		<link rel="stylesheet" href="/assets/css/style.css" />
 		<title>Nelson Carrion</title>
 	</head>
-	<body>
-		<header class="hero">
-			<div class="hero__barconteiner">
-				<div class="hero__bar wrapper">
-					<div class="hero__logos">
-						<img class="hero__img" src="assets/img/prolife.png" alt="" />
-						<i class="bx bx-code-block no-margin logos__icon"></i>
-
-						<h1 class="logos__tittle no-margin">
-							Nelson<span class="white"> Carrion</span>
-						</h1>
-					</div>
-					<!-- hero logos fin-->
-					<button class="bar__toggle" aria-label="open menu">
-						<i class="bx bx-menu"></i>
-					</button>
-					<nav class="hero__nav">
-						<a href="#home" class="nav__items">Home</a>
-						<a href="#about" class="nav__items">About me</a>
-						<a href="#services" class="nav__items">Services</a>
-						<a href="#skills" class="nav__items">Skills</a>
-						<a href="#portfolio" class="nav__items">Portfolio</a>
-						<a href="#contact" class="nav__items">Contact</a>
-					</nav>
+	e.currentTarget.reset();
 				</div>
 			</div>
 			<!--hero__bar fin-->
@@ -292,7 +269,7 @@
 									type="text"
 									id="name"
 									class="form-control"
-									placeholder="Your Name"
+									placeholder="Your Name" required
 								/>
 							</div>
 							<!--form group end-->
@@ -302,7 +279,7 @@
 									type="email"
 									id="email"
 									class="form-control"
-									placeholder="Email here"
+									placeholder="Email here" required
 								/>
 							</div>
 							<!--form group end-->
@@ -312,11 +289,11 @@
 									id="message"
 									class="form-control"
 									placeholder="Tell me your idea "
-									rows="10"
+									rows="10" required
 								></textarea>
 							</div>
 							<!--form group end-->
-							<input type="submit" class="btn-form" value="Send" />
+							<input type="submit" class="btn-form" value="Send"  />
 						</form>
 						<!--form end-->
 					</div>
