@@ -1,9 +1,9 @@
-// toogle
 const togglem = document.querySelector('.bar__toggle');
 const heronav = document.querySelector('.hero__nav');
 const herobar = document.querySelector('.hero__barconteiner');
 const form = document.getElementById('form');
 
+// toogle
 window.addEventListener('scroll', function () {
 	if (window.scrollY >= 60) {
 		herobar.classList.add('barconteiner-fixed');
