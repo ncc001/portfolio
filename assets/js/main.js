@@ -5,7 +5,7 @@ const form = document.getElementById('form');
 
 // toogle
 window.addEventListener('scroll', function () {
-	if (window.scrollY >= 60) {
+	if (window.scrollY >= 10) {
 		herobar.classList.add('barconteiner-fixed');
 	} else herobar.classList.remove('barconteiner-fixed');
 });
@@ -14,9 +14,13 @@ togglem.addEventListener('click', () => {
 	heronav.classList.toggle('active');
 });
 
+togglem.addEventListener('click', () => {
+	togglem.classList.toggle('active');
+});
+
 heronav.addEventListener('click', function (e) {
 	if (e.target.matches('.nav__items')) {
-		heronav.classList.remove('active');
+		heronav.classList.remove('active'), togglem.classList.remove('active');
 	}
 });
 /* Formulario */
