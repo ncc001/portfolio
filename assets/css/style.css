@@ -703,10 +703,10 @@ textarea {
 	position: absolute;
 	top: 200px;
 	left: 11px;
-	width: 40px;
+	width: 50px;
 	padding: 1rem;
-	color: red
-	border-radius: 20px;
+	color: red;
+
 	transform: rotate(145deg);
 	-webkit-transform: rotate(145deg);
 	-moz-transform: rotate(145deg);
@@ -729,7 +729,7 @@ textarea {
 
 	.objectaminated {
 		position: absolute;
-		top: 300px;
+		top: 310px;
 
 		transform: rotate(145deg);
 		-webkit-transform: rotate(145deg);

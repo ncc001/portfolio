@@ -64,20 +64,17 @@ ScrollTrigger.matchMedia({
 		ScrollTrigger.create({
 			animation: tl,
 			trigger: '.animated',
-			markers: true,
+			markers: false,
 			star: 'top top',
-			end: '+=1500',
+			end: '+=1500 0',
 			pin: true,
 			scrub: true,
 		});
 
-		tl.to('.objectaminated', { y: '400', duration: 5 });
-		tl.to('.objectaminated', { rotation: 45, duration: 5 });
-		tl.to('.objectaminated', { x: '500', duration: 5 });
-		tl.to('.objectaminated', { rotation: -45, duration: 5 });
-		tl.to('.objectaminated', { y: 'start', duration: 5 });
-		tl.to('.objectaminated', { rotation: 45, duration: 5 });
-		tl.to('.objectaminated', { x: '1000', duration: 5 });
+		tl.to('.objectaminated', { yPercent: '800', duration: 15 });
+		tl.to('.objectaminated', { rotation: 42, duration: 5 });
+		tl.to('.objectaminated', { xPercent: '460', duration: 15 });
+		tl.to('.objectaminated', { rotation: 360, duration: 5 });
 	},
 
 	'(max-width:768px': function () {
@@ -86,9 +83,9 @@ ScrollTrigger.matchMedia({
 		ScrollTrigger.create({
 			animation: tl,
 			trigger: '.animated',
-			markers: true,
+			markers: false,
 			star: 'top top',
-			end: '+=2000',
+			end: '+=2000 0',
 			pin: true,
 			scrub: true,
 		});
@@ -101,13 +98,13 @@ ScrollTrigger.matchMedia({
 		tl.to('.objectaminated', { rotation: -120, duration: 15 });
 		tl.to('.objectaminated', { x: 'start', duration: 15 });
 		tl.to('.objectaminated', { rotation: -220, duration: 15 });
-		tl.to('.objectaminated', { y: '760', duration: 125 });
-		tl.to('.objectaminated', { rotation: 420, duration: 15 });
-		tl.to('.objectaminated', { x: '330', duration: 15 });
-		tl.to('.objectaminated', { rotation: -40, duration: 15 });
-		tl.to('.objectaminated', { y: '245', duration: 15 });
-		tl.to('.objectaminated', { rotation: -95, duration: 15 });
-		tl.to('.objectaminated', { x: '255', duration: 15 });
-		tl.to('.objectaminated', { rotation: 360, duration: 125 });
+		tl.to('.objectaminated', { y: '100', duration: 125 });
+		// tl.to('.objectaminated', { rotation: 420, duration: 15 });
+		// tl.to('.objectaminated', { x: '330', duration: 15 });
+		// tl.to('.objectaminated', { rotation: -40, duration: 15 });
+		// tl.to('.objectaminated', { y: '245', duration: 15 });
+		// tl.to('.objectaminated', { rotation: -95, duration: 15 });
+		// tl.to('.objectaminated', { x: '255', duration: 15 });
+		// tl.to('.objectaminated', { rotation: 360, duration: 125 });
 	},
 });
