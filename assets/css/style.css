@@ -41,6 +41,9 @@ body {
 	width: min(90%, 120rem);
 	margin: 0 auto;
 }
+/* .mainp{
+	clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+} */
 
 a {
 	text-decoration: none;
@@ -265,6 +268,7 @@ img {
 	text-align: start;
 	padding-right: 1rem;
 	margin: 5rem 0;
+	clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
 }
 
 @media (min-width: 768px) {
@@ -322,7 +326,6 @@ img {
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
-
 	text-align: center;
 }
 
@@ -349,6 +352,7 @@ img {
 /* editor template */
 .hero__code {
 	background-color: #1e293b;
+	clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
 
 	max-width: 100rem;
 	text-align: center;
@@ -396,6 +400,7 @@ pre {
 	text-align: center;
 	padding: 0 1rem 0 1rem;
 	width: 100%;
+	clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
 }
 @media (min-width: 768px) {
 	.about {
@@ -413,17 +418,22 @@ pre {
 	color: var(--colorpar);
 	line-height: 1.5;
 	text-align: justify;
+	clip-path: polygon(0 100%, 0 100%, 0 0, 0 0);
 }
 /* services section */
 .services {
 	padding: 0 1rem 1rem 1rem;
 	margin: 2rem 0;
 	text-align: center;
+	
 }
 
 .services__title {
 	font-size: 3.5rem;
 	margin-bottom: 6rem;
+		clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+		
+
 }
 .services__par {
 	color: var(--colorpar);
@@ -514,6 +524,16 @@ pre {
 .skills__items > span {
 	font-weight: 900;
 }
+
+
+.item__1, .item__3{
+	clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+.item__2,.item__4{
+	clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+}
+
 .portfolio {
 	text-align: center;
 }
@@ -691,50 +711,5 @@ textarea {
 	}
 }
 
-.animated {
-	width: 100%;
-	/* height: 100vh; */
-	height: auto;
-	overflow: hidden;
-	position: relative;
-}
 
-.objectaminated {
-	position: absolute;
-	top: 200px;
-	left: 11px;
-	width: 50px;
-	padding: 1rem;
-	color: red;
-
-	transform: rotate(145deg);
-	-webkit-transform: rotate(145deg);
-	-moz-transform: rotate(145deg);
-	-ms-transform: rotate(145deg);
-	-o-transform: rotate(145deg);
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	-ms-border-radius: 20px;
-	-o-border-radius: 20px;
-}
-
-@media (min-width: 769px) {
-	.animated {
-		width: 100%;
-		/* height: 100vh; */
-		height: auto;
-		overflow: hidden;
-		position: relative;
-	}
-
-	.objectaminated {
-		position: absolute;
-		top: 310px;
-
-		transform: rotate(145deg);
-		-webkit-transform: rotate(145deg);
-		-moz-transform: rotate(145deg);
-		-ms-transform: rotate(145deg);
-		-o-transform: rotate(145deg);
-	}
-}
+/
