@@ -27,7 +27,7 @@ heronav.addEventListener('click', function (e) {
 
 form.addEventListener('submit', function (e) {
 	e.preventDefault();
-	const email = 'ncc.drive1@gmail.com';
+	const email = 'ncc.webs@yahoo.com';
 	const URL_BASE = `https://formsubmit.co/${email}`;
 	const input = e.currentTarget.elements;
 	const formData = {
@@ -36,14 +36,18 @@ form.addEventListener('submit', function (e) {
 		message: input.message.value,
 	};
 
-	window.fetch(URL_BASE, {
-		method: 'POST',
-		headers: {
-			'Content-Type': 'application/json',
-			Accept: 'application/json',
-		},
-		body: JSON.stringify(formData),
-	});
+	window
+		.fetch(URL_BASE, {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+				Accept: 'application/json',
+			},
+			body: JSON.stringify(formData),
+		})
+		.then((response) => response.json())
+		.then((data) => console.log(data))
+		.catch((error) => console.log(error));
 	alert('tu mensaje se ha enviado');
 	e.currentTarget.reset();
 });
@@ -87,7 +91,7 @@ const atl = gsap.timeline({
 ScrollTrigger.create({
 	animation: atl,
 	trigger: '.services__title',
-	markers: false,
+	markers: true,
 	pin: false, // pin the trigger element while active
 	start: '-500', // when the top of the trigger hits the top of the viewport
 	end: '+=500', // end after scrolling 500px beyond the start
