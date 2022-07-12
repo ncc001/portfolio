@@ -91,7 +91,7 @@ const atl = gsap.timeline({
 ScrollTrigger.create({
 	animation: atl,
 	trigger: '.services__title',
-	markers: true,
+	markers: false,
 	pin: false, // pin the trigger element while active
 	start: '-500', // when the top of the trigger hits the top of the viewport
 	end: '+=500', // end after scrolling 500px beyond the start

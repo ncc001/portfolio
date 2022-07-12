@@ -206,6 +206,7 @@ img {
 		background-color: var(--bcolorHead);
 		text-transform: uppercase;
 		left: 100%;
+		height: 0;
 		position: relative;
 	}
 	.hero__logos {
