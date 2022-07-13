@@ -36,6 +36,7 @@ body {
 .wrapper {
 	width: min(90%, 120rem);
 	margin: 0 auto;
+	
 }
 .wrapper2 {
 	width: min(90%, 120rem);
@@ -49,6 +50,7 @@ a {
 	text-decoration: none;
 	font-size: 2rem;
 	color: white;
+	
 }
 
 h1,
@@ -76,6 +78,8 @@ img {
 	height: auto;
 	display: block;
 }
+
+
 /** utilitys **/
 
 .no-margin {
@@ -89,6 +93,7 @@ img {
 .hero {
 	margin-bottom: 5rem;
 	margin-top: 5rem;
+	
 }
 @media (min-width: 768px) {
 }
@@ -175,10 +180,12 @@ img {
 	text-align: center;
 	font-size: clamp(1rem, 4.5vw, 1.5rem);
 	color: var(--colorpar);
+	
 }
 
 .nav__items:hover {
 	color: var(--colorhead);
+
 }
 
 .hero__nav {
@@ -263,6 +270,8 @@ img {
 	justify-content: space-around;
 	grid-auto-flow: row;
 	gap: 2rem;
+
+	
 }
 @media (min-width: 1414px) {
 	.hero__info {
@@ -286,10 +295,13 @@ img {
 .hero__tittle {
 	color: var(--colorhead);
 	line-height: 1.1;
+	font-size: 3.4rem;
+
 }
 .hero__subtitle {
 	color: var(--colorpar);
 	margin: 0 0 1rem 0;
+	font-size: 2rem;
 }
 .hero__tittle,
 .hero__subtitle {
@@ -299,7 +311,7 @@ img {
 .name {
 	color: white;
 	font-weight: bold;
-	font-size: 4.2rem;
+	font-size: 6.2rem;
 }
 
 /* hero social links */
@@ -403,15 +415,21 @@ pre {
 }
 /* about setcion */
 .about {
-	text-align: center;
+	
+		text-align: center;
 	padding: 0 1rem 0 1rem;
 	width: 100%;
 	clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+	
+	
+	
 }
 @media (min-width: 768px) {
 	.about {
 		padding: 0 2rem 1rem 2rem;
 		margin: 0 auto;
+		
+		
 	}
 }
 
@@ -421,6 +439,7 @@ pre {
 	margin-bottom: 5rem;
 }
 .about__par {
+	
 	color: var(--colorpar);
 	line-height: 1.5;
 	text-align: justify;
@@ -431,7 +450,7 @@ pre {
 	padding: 0 1rem 1rem 1rem;
 	margin: 2rem 0;
 	text-align: center;
-	
+
 }
 
 .services__title {
@@ -448,9 +467,13 @@ pre {
 /* services grid */
 .services__container {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr));
-	gap: 1rem;
-	margin: 1rem 0;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 45rem), 1fr));
+	
+	gap: 2rem;
+	
+	
+	
+	
 }
 
 .services__items {
@@ -508,6 +531,7 @@ pre {
 	-o-border-radius: 10px;
 	font-size: clamp(1rem, 3vw + 1rem, 3.4rem);
 	padding: 2rem;
+	cursor: pointer;
 }
 
 .skills__items:nth-child(0n + 1):hover {
@@ -544,8 +568,7 @@ pre {
 	text-align: center;
 }
 
-.portfolio {
-}
+
 .portoflio___container {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(min(100%, 55rem), 1fr));
