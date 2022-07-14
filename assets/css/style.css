@@ -104,6 +104,8 @@ img {
 	align-items: center;
 	gap: 0.6rem;
 	text-align: center;
+	
+	
 }
 
 /* bar nav */
@@ -114,12 +116,14 @@ img {
 	left: 0px;
 	width: 100%;
 	z-index: 1;
+	height: 6rem;
 
 	align-items: center;
 }
 
 .hero__bar {
 	padding: 1rem 1rem;
+	
 	/* background-color: var(--bcolorHead); */
 }
 @media (min-width: 768px) {
@@ -133,7 +137,12 @@ img {
 	}
 	.hero__barconteiner.barconteiner-fixed {
 		background-color: var(--bcolorHead);
+		
 	}
+	.hero__barconteiner{
+		height: auto;
+	}
+
 }
 /* logo nv */
 .hero__img {
@@ -198,12 +207,13 @@ img {
 	.wrapper2 {
 		width: 100%;
 		padding: 0;
+		;
 	}
 
 	.bar__toggle {
 		display: block;
 		position: absolute;
-		top: 1.2rem;
+		top: 1.4rem;
 		right: 0;
 		cursor: pointer;
 				transition: all 0.5s ease-in-out;
@@ -225,6 +235,7 @@ img {
 		justify-content: inherit;
 		background-color: var(--bcolorHead);
 		padding: 1rem;
+		height: 6rem;
 	}
 	.nav__items {
 		padding: 1rem 0;
