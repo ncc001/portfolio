@@ -105,6 +105,7 @@ img {
 	align-items: center;
 	gap: 0.6rem;
 	text-align: center;
+	margin: 0 ;
 	
 	
 }
@@ -173,7 +174,7 @@ img {
 .logos__tittle {
 	color: var(--colorhead);
 	line-height: 1.2;
-	font-size: clamp(1rem, 5vw, 3.8rem);
+	font-size: clamp(1rem, 4vw, 3.8rem);
 }
 /* toggle */
 
@@ -181,7 +182,7 @@ img {
 	color: var(--colorhead);
 	background-color: transparent;
 	border: none;
-	font-size: 6vw;
+	
 	padding: 0 1rem;
 	display: none;
 }
@@ -217,12 +218,15 @@ img {
 		align-items: center;
 		position: absolute;
 		padding: 0 2rem 0 0;
-		font-size: 4rem;
+		font-size: 3rem;
 				right: 0;
 		cursor: pointer;
 				transition: all 0.5s ease-in-out;
 
 	
+}
+.hero__bar{
+	background-color: var(--bcolorHead);
 }
 
 	.hero__nav {
@@ -238,7 +242,7 @@ img {
 	.hero__logos {
 		justify-content: inherit;
 		background-color: var(--bcolorHead);
-		padding: 1rem;
+		padding: 0 1rem;
 		height: 6rem;
 		
 	}
@@ -263,6 +267,7 @@ img {
 	.bar__toggle.active {
 		display: inline-flex;
 		color: white;
+		
 		transform: rotate(90deg);
 		transition: all 1s ease-in-out;
 		-webkit-transition: all 0.5s ease-in-out;
@@ -273,7 +278,7 @@ img {
 		-moz-transform: rotate(90deg);
 		-ms-transform: rotate(90deg);
 		-o-transform: rotate(90deg);
-	}
+}
 }
 /* hero information */
 .hero__info {
