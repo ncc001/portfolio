@@ -31,6 +31,7 @@ body {
 	min-height: 100%;
 }
 
+
 /** Globals */
 
 .wrapper {
@@ -452,9 +453,10 @@ pre {
 .about__par {
 	
 	color: var(--colorpar);
-	line-height: 1.5;
+	line-height: 1.8;
 	text-align: justify;
 	clip-path: polygon(0 100%, 0 100%, 0 0, 0 0);
+	font-size: 1.8rem;
 }
 /* services section */
 .services {
