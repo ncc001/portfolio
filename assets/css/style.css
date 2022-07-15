@@ -103,7 +103,7 @@ img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 0.6rem;
+	/* gap: 0.4rem; */
 	text-align: center;
 	
 	
@@ -124,6 +124,7 @@ img {
 
 .hero__bar {
 	padding: 1rem 1rem;
+	
 	
 	/* background-color: var(--bcolorHead); */
 }
@@ -212,9 +213,12 @@ img {
 	}
 
 	.bar__toggle {
-		display: block;
+		display: flex;
+		align-items: center;
 		position: absolute;
-		top: 1.4rem;
+		padding: 0 1rem 0 0;
+		font-size: 3rem;
+		
 		right: 0;
 		cursor: pointer;
 				transition: all 0.5s ease-in-out;
