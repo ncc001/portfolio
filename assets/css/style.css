@@ -167,13 +167,13 @@ img {
 
 .logos__icon {
 	color: white;
-	font-size: clamp(1rem, 7vw, 3.8rem);
+	font-size: clamp(1rem, 5vw, 3.8rem);
 }
 
 .logos__tittle {
 	color: var(--colorhead);
 	line-height: 1.2;
-	font-size: clamp(1rem, 7vw, 3.8rem);
+	font-size: clamp(1rem, 5vw, 3.8rem);
 }
 /* toggle */
 
@@ -216,10 +216,9 @@ img {
 		display: flex;
 		align-items: center;
 		position: absolute;
-		padding: 0 1rem 0 0;
-		font-size: 3rem;
-		
-		right: 0;
+		padding: 0 2rem 0 0;
+		font-size: 4rem;
+				right: 0;
 		cursor: pointer;
 				transition: all 0.5s ease-in-out;
 
