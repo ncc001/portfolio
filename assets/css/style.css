@@ -535,11 +535,11 @@ pre {
 	color: yellow;
 	background-color: white;
 }
-.skills__items:nth-child(0n + 4):hover {
+.skills__items:nth-child(0n + 5):hover {
 	color: #c76494;
 	background-color: white;
 }
-.skills__items:nth-child(0n + 5):hover {
+.skills__items:nth-child(0n + 4):hover {
 	color: cornflowerblue;
 	background-color: white;
 }
