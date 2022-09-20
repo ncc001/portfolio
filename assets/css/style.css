@@ -294,6 +294,7 @@ img {
 		text-align: justify;
 	}
 }
+
 .hero__tittle {
 	color: var(--colorhead);
 	line-height: 1.1;
@@ -538,11 +539,17 @@ pre {
 	color: #c76494;
 	background-color: white;
 }
+.skills__items:nth-child(0n + 5):hover {
+	color: cornflowerblue;
+	background-color: white;
+}
 
 .skills__items > span {
 	font-weight: 900;
 }
-
+.card-parr {
+	text-transform: uppercase;
+}
 .item__1,
 .item__3 {
 	clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);

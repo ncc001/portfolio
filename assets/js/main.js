@@ -48,7 +48,7 @@ form.addEventListener('submit', function (e) {
 	alert('tu mensaje se ha enviado');
 	e.currentTarget.reset();
 });
-
+// GSAP ANIMATIONS
 gsap.registerPlugin(ScrollTrigger);
 var tl = gsap.timeline({ default: { ease: 'power4.inOut', duration: 1 } });
 
